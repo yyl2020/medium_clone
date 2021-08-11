@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install-deps": "yarn install && cd server && yarn install && cd ../frontend && yarn install",
+    "server": "cd server && node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
